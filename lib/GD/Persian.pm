@@ -182,6 +182,12 @@ All rights reserved. This program is free software; you can redistribute it and/
 
 =cut
 
+=head1 BUGS
+
+https://github.com/slashmili/perl-gd-persian/issues
+
+=cut
+
 =head1 VERSION
 
 0.9
