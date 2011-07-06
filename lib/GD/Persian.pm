@@ -131,7 +131,8 @@ GD::Persian - Persian UTF-8 support for GD module
 
 =head1 DESCRIPTION
 
-The L<GD> lib dosn't support Persian and Arabic chars propebly. This package get your Persian UTF-8 charecter and replace it with proper characters that is readble in L<GD>
+The L<GD> lib dosn't support Persian and Arabic chars propebly. It shows characters unsticky and reverse the sentence.
+This package get Persian UTF-8 charecter and replace it with proper characters that is readable in L<GD>
     
 =head1 SYNOPSIS
 
@@ -162,7 +163,7 @@ use GD;
 
 =item C<Convert>
     
-    Convert Persian chars to proper chars for showing in GD images
+    Convert Persian UTF-8 characters to proper characters for using in images that is created by GD lib
 
 =cut 
 
